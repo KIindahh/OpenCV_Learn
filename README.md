@@ -60,3 +60,7 @@ cv.destroyAllWindows()
 # 保存一张图像
 cv.imwrite('./imgs/img.png', img)
 ```
+
+## 2. OpenCV读取摄像头
+
+> 晚点写
