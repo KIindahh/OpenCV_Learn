@@ -63,4 +63,43 @@ cv.imwrite('./imgs/img.png', img)
 
 ## 2. OpenCV读取摄像头
 
-> 晚点写
+
+
+> 对应文件[02-TestCamera](C:\Users\kk\Desktop\鱼鱼鱼\opencv)
+
+### 2.1 VideoCapture函数
+
+```python
+#创建对象
+cap = cv.VideoCapture(0)
+#修改括号里的数字从而t
+```
+
+### 2.1 read函数
+
+> ret参数：利用布尔值判断是否读取到图片
+>
+> frame参数：当前截取到一帧
+
+eg：
+
+```python
+#一帧一帧捕捉
+ret,frame = cap.read()
+#多返回值
+```
+
+###  2.2  set函数
+
+> 作用：修改某些参数
+>
+> propld属性
+>
+> value属性
+
+eg：
+
+```pyt
+ ret = cap.set(cv.CAP_PROP_FRAME_WIDTH,320)
+```
+
